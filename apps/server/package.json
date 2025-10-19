@@ -25,7 +25,7 @@
     "@langchain/textsplitters": "^0.1.0",
     "@supabase/supabase-js": "^2.45.3",
     "@types/jsonwebtoken": "^9.0.7",
-    "ai": "3.1.12",
+    "ai": "3.4.33",
     "antd": "^5.20.3",
     "antd-style": "^3.7.1",
     "framer-motion": "^11.2.12",
