@@ -19,7 +19,7 @@
     "@clerk/nextjs": "^5.5.4",
     "@formatjs/intl-localematcher": "^0.5.4",
     "@langchain/community": "0.3.11",
-    "@langchain/core": "0.3.17",
+    "@langchain/core": "0.3.80",
     "@langchain/langgraph": "0.2.20",
     "@langchain/openai": "0.3.11",
     "@langchain/textsplitters": "^0.1.0",
