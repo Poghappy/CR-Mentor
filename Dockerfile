@@ -9,7 +9,7 @@ COPY . /app
 RUN --mount=type=cache,id=pnpm,target=/pnpm/store pnpm install
 RUN pnpm run build
 
-FROM nginx:alpine
+FROM nginx:1.29.5-alpine3.23
 COPY docker/nginx.conf /etc/nginx/conf.d/default.conf
 COPY --from=builder /app/dist /app/dist
 EXPOSE 80
